@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Main page</title>
+      <link href="css/bootstrap.min.css" rel="stylesheet"/>
+  </head>
+  <style>
+.btn-custom {
+  --bs-btn-font-weight: 1200;
+
+  --bs-btn-color: #ffffff;
+  --bs-btn-bg: transparent;
+  --bs-btn-border-color: transparent;
+
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: #0d6efd;
+  --bs-btn-hover-border-color: #0d6efd;
+
+  --bs-btn-active-color: #ffffff;
+  --bs-btn-active-bg: #0b5ed7;
+  --bs-btn-active-border-color: #0b5ed7;
+
+  --bs-btn-focus-shadow-rgb: 13,110,253;
+}
+</style>
+  <body>
+  <div class="container-fluid ps-0">
+    <div class="row">
+        <div class="col-2 d-flex flex-column bg-dark text-white min-vh-100 p-3">
+            <div class="column ms-1 border-bottom border-secondary">
+                <h3>В Меню</h3></div>
+            <div class="column">
+                  <button class="btn btn-custom text-start w-100 ms-1">Главная</button>
+            </div>
+            <div class="column">
+                <button class="btn btn-custom text-start w-100 ms-1">Категории</button>
+            </div>
+            <div class="column">
+                <button class="btn btn-custom text-start w-100 ms-1">Заказы</button>
+            </div>
+            <div class="column">
+                <button class="btn btn-custom text-start w-100 ms-1">Контакты</button>
+            </div>
+            <div class="mt-auto">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="box border-top border-secondary">
+                            <div class="d-flex align-items-center p-2 ms-1 ms-1">
+        <img src="http://liubavyshka.ru/_ph/82/2/56048802.gif" class="rounded-circle me-2" alt="avatar">
+        <span class="fw-semibold">Имя пользователя</span>
+    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="col-10 p-4">
+
+    <!-- Заголовок -->
+    <h1 class="text-center mb-5">Контакты</h1>
+
+    <div class="row justify-content-center">
+
+        <!-- Форма -->
+        <div class="col-4">
+            <div class="p-4 border rounded-3 shadow-sm bg-white">
+
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Имя</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Почта</label>
+                        <div class="input-group">
+                            <span class="input-group-text">@</span>
+                            <input type="email" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Сообщение</label>
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100">
+                        Отправить
+                    </button>
+                </form>
+
+            </div>
+        </div>
+
+        <!-- Правый текст -->
+        <div class="col-5 ms-5">
+            <h4>Наши контакты</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+
+            <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+            </p>
+        </div>
+
+    </div>
+</div>
+    </div>
+  </div>
+  </body>
+</html>
